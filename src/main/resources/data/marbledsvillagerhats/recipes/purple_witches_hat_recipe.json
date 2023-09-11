@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:black_dye"
+    },
+    "Z": {
+      "item": "minecraft:leather_helmet"
+    },
+    "Y": {
+      "item": "minecraft:amethyst"
+    }
+  },
+  "pattern": [
+    "XYX",
+    "XZX"
+  ],
+  "result": {
+    "item": "marbledsvillagerhats:purple_witches_hat"
+  },
+  "show_notification": true
+}

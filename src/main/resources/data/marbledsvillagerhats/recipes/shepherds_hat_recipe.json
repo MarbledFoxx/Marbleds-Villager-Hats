@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    },
+    "Z": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "XZX",
+    "X X"
+  ],
+  "result": {
+    "item": "marbledsvillagerhats:shepherds_hat"
+  },
+  "show_notification": true
+}
