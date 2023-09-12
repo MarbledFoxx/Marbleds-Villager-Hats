@@ -1,6 +1,5 @@
 package net.marblednull.marbledsvillagerhats.item.ArmorItem;
 
-import net.marblednull.marbledsvillagerhats.armor.farmers_hat.FarmersHatRenderer;
 import net.marblednull.marbledsvillagerhats.armor.librarians_hat.LibrariansHatRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;

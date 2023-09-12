@@ -1,7 +1,6 @@
 package net.marblednull.marbledsvillagerhats.armor.librarians_hat;
 
 import net.marblednull.marbledsvillagerhats.MarbledsVillagerHats;
-import net.marblednull.marbledsvillagerhats.item.ArmorItem.FarmersHatArmorItem;
 import net.marblednull.marbledsvillagerhats.item.ArmorItem.LibrariansHatArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib.model.GeoModel;
