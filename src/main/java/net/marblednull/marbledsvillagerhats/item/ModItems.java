@@ -32,8 +32,8 @@ public static final RegistryObject<Item> LIBRARIANS_HAT = ITEMS.register("librar
         () -> new LibrariansHatArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET,
                 new Item.Properties()));
 
-public static final RegistryObject<Item> FARMERS_HAT = ITEMS.register("farmers_hat",
-        () -> new FarmersHatArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET,
+public static final RegistryObject<Item> FARMERS_STRAW_HAT = ITEMS.register("farmers_straw_hat",
+        () -> new FarmersStrawHatArmorItem(ArmorMaterials.LEATHER, ArmorItem.Type.HELMET,
                 new Item.Properties()));
 
 public static final RegistryObject<Item> WEAPONSMITHS_EYEPATCH = ITEMS.register("weaponsmiths_eyepatch",

@@ -1,7 +1,6 @@
 package net.marblednull.marbledsvillagerhats.armor.fletchers_hat;
 
 import net.marblednull.marbledsvillagerhats.MarbledsVillagerHats;
-import net.marblednull.marbledsvillagerhats.item.ArmorItem.FarmersHatArmorItem;
 import net.marblednull.marbledsvillagerhats.item.ArmorItem.FletchersHatArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib.model.GeoModel;

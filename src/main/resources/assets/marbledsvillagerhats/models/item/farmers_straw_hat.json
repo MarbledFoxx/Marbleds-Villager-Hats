@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-      "layer0": "marbledsvillagerhats:item/farmers_hat"
+      "layer0": "marbledsvillagerhats:item/farmers_straw_hat"
   }
 }

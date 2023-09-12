@@ -1,7 +1,6 @@
 package net.marblednull.marbledsvillagerhats.item.ArmorItem;
 
-import net.marblednull.marbledsvillagerhats.armor.armorers_goggles.ArmorersGogglesRenderer;
-import net.marblednull.marbledsvillagerhats.armor.farmers_hat.FarmersHatRenderer;
+import net.marblednull.marbledsvillagerhats.armor.farmers_straw_hat.FarmersStrawHatRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -18,23 +17,23 @@ import software.bernie.geckolib.core.object.PlayState;
 
 import java.util.function.Consumer;
 
-public class FarmersHatArmorItem extends ArmorItem implements GeoItem {
+public class FarmersStrawHatArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
-    public FarmersHatArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
+    public FarmersStrawHatArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
         super(p_40386_, p_266831_, p_40388_);
     }
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
-            private FarmersHatRenderer renderer;
+            private FarmersStrawHatRenderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity LivingEntity, ItemStack itemStack,
                                                                    EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
                 if (this.renderer == null)
-                    this.renderer = new FarmersHatRenderer();
+                    this.renderer = new FarmersStrawHatRenderer();
 
                 this.renderer.prepForRender(LivingEntity, itemStack, equipmentSlot, original);
                 return this.renderer;
@@ -43,7 +42,7 @@ public class FarmersHatArmorItem extends ArmorItem implements GeoItem {
     }
 
     private PlayState predicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("animation.farmers_hat.idle", Animation.LoopType.LOOP));
+        animationState.getController().setAnimation(RawAnimation.begin().then("animation.farmers_straw_hat.idle", Animation.LoopType.LOOP));
         return PlayState.CONTINUE;
     }
 

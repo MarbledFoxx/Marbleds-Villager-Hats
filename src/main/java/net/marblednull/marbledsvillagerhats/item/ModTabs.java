@@ -16,9 +16,9 @@ public class ModTabs {
     public static final RegistryObject<CreativeModeTab> MARBLEDS_ARSENAL = TABS.register("marbleds_villager_hats",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.marbleds_villager_hats"))
-                    .icon(() -> new ItemStack(ModItems.FARMERS_HAT.get()))
+                    .icon(() -> new ItemStack(ModItems.FARMERS_STRAW_HAT.get()))
                     .displayItems((displayParameters, output) -> {
-                        output.accept(ModItems.FARMERS_HAT.get());
+                        output.accept(ModItems.FARMERS_STRAW_HAT.get());
                         output.accept(ModItems.ARMORERS_GOGGLES.get());
                         output.accept(ModItems.BUTCHERS_HAT.get());
                         output.accept(ModItems.FISHERMANS_HAT.get());
